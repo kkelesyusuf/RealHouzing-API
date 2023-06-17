@@ -14,7 +14,7 @@ namespace RealHouzing.ApiLayer.Controllers
         {
             _categoryService = categoryService;
         }
-        //-----------------------------------------------------------------------
+        
         [HttpGet]
         public IActionResult CategoryList()
         {

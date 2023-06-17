@@ -16,8 +16,7 @@ namespace RealHouzing.BusinessLayer.Concrete
         public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
-        }
-        //--------------------------------------------------
+        }   
         public void TAdd(Category t)
         {
             _categoryDal.Add(t);
