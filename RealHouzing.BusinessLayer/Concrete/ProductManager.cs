@@ -38,6 +38,11 @@ namespace RealHouzing.BusinessLayer.Concrete
             return _productDal.GetList();
         }
 
+        public List<Product> TGetProductWithCategories()
+        {
+            return _productDal.GetProductWithCategories();
+        }
+
         public void TUpdate(Product t)
         {
             _productDal.Update(t);

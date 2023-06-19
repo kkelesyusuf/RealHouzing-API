@@ -14,7 +14,7 @@ namespace RealHouzing.DataAccessLayer.Concrete
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-MM84V2T\\SQLEXPRESS;initial catalog=DBRealHouzingApi;integrated security=true");
         }
-        DbSet<Category> Categories { get; set; }
-        DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
