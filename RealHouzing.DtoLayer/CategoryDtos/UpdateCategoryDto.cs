@@ -10,5 +10,7 @@ namespace RealHouzing.DtoLayer.CategoryDtos
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
-    }
+		public string Icon { get; set; }
+		public string ImageURL { get; set; }
+	}
 }

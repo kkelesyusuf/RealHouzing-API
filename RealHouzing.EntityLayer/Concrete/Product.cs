@@ -17,6 +17,7 @@ namespace RealHouzing.EntityLayer.Concrete
         public int BathCount { get; set; }
         public int Square { get; set; }
         public string CoverImageURL { get; set; }
+        public bool IsItDone { get; set; }
         public Category Category { get; set; }
         public int CategoryID { get; set; }
     }
